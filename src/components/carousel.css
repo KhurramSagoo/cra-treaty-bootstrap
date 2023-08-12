@@ -14,6 +14,9 @@
   height: 66%;
   object-fit: cover;
 }
+.owl-theme{
+  margin: 10px 0;
+}
 
 .owl-dots {
   position: absolute;

@@ -10,7 +10,7 @@ function App() {
   return (
     <>
     <TopNav />
-    <Carousel />
+    {/* <Carousel /> */}
 
     </>
   );

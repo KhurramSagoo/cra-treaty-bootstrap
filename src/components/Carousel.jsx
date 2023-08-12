@@ -45,7 +45,7 @@ const Carousel = () => {
   return (
 
 
-    <OwlCarousel className="owl-theme" {...settings}>
+    <OwlCarousel className="owl-theme" {...settings} id='container'>
       {data.map((item, id) => (
         <div key={id}>
           <p className='txt'>{item.text} </p>
