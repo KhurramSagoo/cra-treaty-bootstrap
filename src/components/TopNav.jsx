@@ -7,7 +7,7 @@ import './TopNav.css'
 
 function TopNav() {
   return (
-    <Navbar collapseOnSelect className="nv" expand="lg" 
+    <Navbar collapseOnSelect className="nv" expand="lg"
     // style={{
     //   backgroundColor:"gray"
     // }}
@@ -23,17 +23,17 @@ function TopNav() {
             treaty
           </span>
         </Navbar.Brand>
-        <Navbar.Toggle 
-        id=''
-        aria-controls="responsive-navbar-nav" className='toggle'/>
+        <Navbar.Toggle
+          id=''
+          aria-controls="responsive-navbar-nav" className='toggle' />
         <Navbar.Collapse id="responsive-navbar-nav" >
           <Nav className='links'>
             <Nav.Link href="#" className='link'>Home</Nav.Link>
             <Nav.Link href="#" className='link' >About us</Nav.Link>
             <Nav.Link href="#" className='link' >Services</Nav.Link>
             <Nav.Link href="#" className='link' >Contact us</Nav.Link>
-            <Button variant="info" className='btn'>Login / Register</Button>{' '}
           </Nav>
+            <Button variant="info" className='btn'>Login / Register</Button>
         </Navbar.Collapse>
         {/* <Navbar.Collapse id="responsive-navbar-nav" className=''>
           <Nav style={btndiv}>
