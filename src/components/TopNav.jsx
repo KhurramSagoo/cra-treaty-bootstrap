@@ -32,8 +32,8 @@ function TopNav() {
             <Nav.Link href="#" className='link' >About us</Nav.Link>
             <Nav.Link href="#" className='link' >Services</Nav.Link>
             <Nav.Link href="#" className='link' >Contact us</Nav.Link>
-            <Button variant="info" className='btn'>Login / Register</Button>{' '}
           </Nav>
+            <Button variant="info" className='btn'>Login / Register</Button>{' '}
         </Navbar.Collapse>
         {/* <Navbar.Collapse id="responsive-navbar-nav" className=''>
           <Nav style={btndiv}>
