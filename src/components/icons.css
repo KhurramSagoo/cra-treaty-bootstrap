@@ -34,35 +34,87 @@
     padding-top: 30px;
 }
 .detail{
-    color: gray;
-    padding: 5px 20px;
+    color: rgb(181, 180, 180);
+    padding: 5px 60px;
     text-justify: inter-word;
-    /* left: 20px; */
-    /* right: 50px; */
     text-align: center;
-    margin: 0 40px;
     font-size: 1.1rem;
-    /* font-weight: 400; */
     line-height: 22px;
+    text-justify:inter-word;
+
+
 }
-@media screen and (max-width: 768px) {
-/* .icon-container{
-    flex-direction: column;
-    width: 100%;
-} */
+@media screen and (min-width: 350px) and (max-width: 480px) { 
+
+    .icon-container{
+        display: grid;
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-columns: auto ;
+    }
+        .item{
+            width: 100%;
+            padding-top:20px ;
+        }
+        .detail{
+            padding: 5px 60px;
+        }
+    }
+
+@media screen and (min-width: 481px) and (max-width: 768px) { 
+
 .icon-container{
     display: grid;
     /* grid-row: auto auto; */
     grid-template-rows: auto auto;
     grid-template-columns: auto auto;
-
 }
     .item{
         width: 100%;
         padding-top:20px ;
     }
-    
+    .detail{
+        padding: 5px 60px;
+    }
 }
-/* @media screen and (min-width: 481px) {
-  
-} */
+@media screen and (min-width: 769px) and (max-width: 900px) { 
+
+.icon-container{
+    display: grid;
+    /* grid-row: auto auto; */
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+}
+    .item{
+        width: 100%;
+        padding-top:20px ;
+    }
+    .detail{
+        padding: 5px 40px;
+    }
+}
+@media screen and (min-width: 901px) and (max-width: 1024px) { 
+
+.icon-container{
+    display: grid;
+    /* grid-row: auto auto; */
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+}
+    .item{
+        width: 100%;
+        padding-top:20px ;
+    }
+    .detail{
+        padding: 5px 50px;
+    }
+}
+@media screen and (min-width: 1025px) and (max-width: 1250px) { 
+   .detail{
+    padding: 5px 30px;
+   }
+}
+@media screen and (min-width: 1251px) and (max-width: 1440px) { 
+   .detail{
+    padding: 5px 50px;
+   }
+}

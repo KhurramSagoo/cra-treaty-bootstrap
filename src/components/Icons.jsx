@@ -1,10 +1,10 @@
 import React from 'react'
-import './icons.css'
 import chat from '../assets/chat.png'
 import medication from '../assets/medication.png'
 import schedule from '../assets/Schedule.png'
 import compliance from '../assets/Compliance.png'
 import visit from '../assets/Track-Visit.png'
+import './icons.css'
 
 
 const Icons = () => {

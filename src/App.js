@@ -9,8 +9,8 @@ import Icons from './components/Icons'
 function App() {
   return (
     <>
-    {/* <TopNav /> */}
-    {/* <Carousel /> */}
+    <TopNav />
+    <Carousel />
     <Icons />
 
     </>
