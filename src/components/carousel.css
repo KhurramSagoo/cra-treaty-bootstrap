@@ -1,3 +1,7 @@
+#container{
+  padding: 0;
+  margin: 0;
+}
 .txt {
   position: absolute;
   text-align: center;
@@ -11,7 +15,7 @@
 }
 .img {
   width: 100%;
-  height: 66%;
+  /* height: 70%; */
   object-fit: cover;
 }
 .owl-theme{
@@ -20,7 +24,7 @@
 
 .owl-dots {
   position: absolute;
-  bottom: 10px;
+  bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
   display: flex;
@@ -28,16 +32,16 @@
 
 .owl-dot {
   background: transparent;
-  border: 2px solid #ffffff;
-  width: 12px;
-  height: 12px;
+  /* border: 2px solid #ffffff; */
+  /* width: 12px; */
+  /* height: 12px; */
   border-radius: 50%;
-  margin: 0 5px;
+  /* margin: 0 5px; */
   cursor: pointer;
 }
 
 .owl-dot.active {
-  background: #ffffff;
+  /* background: #ffffff; */
 }
 
 @media screen and (min-width: 200px) and (max-width: 364px) {
@@ -56,8 +60,8 @@
     position: absolute;
     color: white;
     font-weight: 200;
-    font-size: 0.6rem;
-    top: 5px;
+    font-size: .7rem;
+    top: 10px;
     left: 5px;
     right: 5px;
   }
@@ -70,7 +74,7 @@
     color: white;
     font-weight: 300;
     font-size: 1rem;
-    top: 8px;
+    top: 25px;
     left: 5%;
     right: 5%;
     /* overflow: hidden; */
@@ -80,7 +84,7 @@
 @media screen and (min-width: 769px) and (max-width: 1024px) {
   .txt {
     font-size: 1.4rem;
-    top: 10px;
+    top: 40px;
     left: 5%;
     right: 5%;
   }
@@ -89,18 +93,18 @@
 @media screen and (min-width: 1025px) and (max-width: 1280px) {
   .txt {
     font-size: 1.6rem;
-    top: 20px;
+    top: 40px;
     left: 10%;
     right: 10%;
   }
   .img {
-    height: 98vh;
+    /* height: 98vh; */
   }
 }
 @media screen and (min-width: 1281px) and (max-width: 1440px) {
   .txt {
-    font-size: 1.6rem;
-    top: 10px;
+    font-size: 1.7rem;
+    top: 40px;
     left: 10%;
     right: 10%;
   }
@@ -111,11 +115,11 @@
 @media screen and (min-width: 1441px) and (max-width: 1650px) {
   .txt {
     font-size: 1.8rem;
-    /* top: 8px; */
+    top: 60px;
     left: 10%;
     right: 10%;
   }
   .img {
-    height: 98vh;
+    /* height: 90%; */
   }
 }
