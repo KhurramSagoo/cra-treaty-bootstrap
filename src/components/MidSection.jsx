@@ -1,7 +1,7 @@
 import React from 'react'
-import './midsection.css'
 import mobile from '../assets/sliceing.png'
 import bars from '../assets/bars.png'
+import './midsection.css'
 
 const MidSection = () => {
   return (
@@ -29,26 +29,26 @@ const MidSection = () => {
             </div>
             <div className="sub-item">
                 <h2 className="heading-black">
-                   ELIMINATE HANDWRITTEN MEDICATION LISTS
+                  EMPOWER THE FAMILIES YOU SERVE
                 </h2>
                 <h2 className="heading-light">
-                Patients and families deserve to have up to date, mobile access to their latest medication list
+                Families can now have mobile access to your team's visiting schedule and can also request medication and supply refills with a touch of a button
                 </h2>
             </div>
             <div className="sub-item">
                 <h2 className="heading-black">
-                   ELIMINATE HANDWRITTEN MEDICATION LISTS
+                 ACCESS TO IMPORTANT DOCUMENTS 
                 </h2>
                 <h2 className="heading-light">
-                Patients and families deserve to have up to date, mobile access to their latest medication list
+                Allow families to have mobile access to important documents such as consents, plan of care, etc.
                 </h2>
             </div>
             <div className="sub-item">
                 <h2 className="heading-black">
-                   ELIMINATE HANDWRITTEN MEDICATION LISTS
+                   KEEP OTHER FAMILY MEMBERS IN THE LOOP
                 </h2>
                 <h2 className="heading-light">
-                Patients and families deserve to have up to date, mobile access to their latest medication list
+                Allow your patients' POA to invite other family members to have mobile access of their loved one's profile
                 </h2>
             </div>
 
