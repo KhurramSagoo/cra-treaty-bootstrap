@@ -1,5 +1,4 @@
 import React from 'react'
-import './contact.css'
 import bars from '../assets/bars.png'
 import phone from '../assets/Phone.png'
 import envelope from '../assets/Envelope.png'
@@ -8,16 +7,17 @@ import fb from '../assets/fb.png'
 import twitter from '../assets/twitter.png'
 import insta from '../assets/instagram.png'
 import youtube from '../assets/youtube.png'
+import './contact.css'
 
 const Contact = () => {
     return (
         <div className="contact-container">
             <div className="contact-left">
                 <div className="contact-header">
-                    <h2 className="heading">
+                    <h2 className="contact-heading-one">
                         STAY IN TOUCH
                     </h2>
-                    <h2 className="heading-black">
+                    <h2 className="contact-heading-two">
                         Contact us
                     </h2>
                     <img src={bars} alt="bars" className='contact-bars' />

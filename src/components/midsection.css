@@ -1,16 +1,12 @@
 .mid-container{
     width: 100%;
-    /* height: auto; */
-    /* background-color: #c60707; */
     display: flex;
-    /* align-items:first baseline; */
-    /* justify-content:first baseline; */
+    align-items:first center;
+    justify-content:first center;
     border-bottom: 1px solid gray;
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    /* padding: 50px; */
 
-    /* padding: 0 0 60px 0; */
 }
 .mid-mobile{
     width: 100%;
@@ -44,7 +40,7 @@
     font-size: 32px;
     font-weight: 600;
 }
-.heading-black{
+.mid-heading{
     font-weight: 600;
     font-size: 28px;
 
@@ -83,7 +79,7 @@
         font-size: 28px;
         font-weight: 500;
     }
-    .heading-black{
+    .mid-heading{
         font-size: 20px;
         font-weight: 600;
     
@@ -134,7 +130,7 @@
         font-size: 32px;
         font-weight: 500;
     }
-    .heading-black{
+    .mid-heading{
         font-weight: 600;
         font-size: 22px;
     
@@ -170,7 +166,7 @@
         font-size: 20px;
         font-weight: 500;
     }
-    .heading-black{
+    .mid-heading{
         font-weight: 600;
         font-size: 16px;
     
@@ -210,7 +206,7 @@
         font-size: 22px;
         font-weight: 500;
     }
-    .heading-black{
+    .mid-heading{
         font-weight: 600;
         font-size: 18px;
     
@@ -250,7 +246,7 @@
         font-size: 32px;
         font-weight: 500;
     }
-    .heading-black{
+    .mid-heading{
         font-weight: 600;
         font-size: 22px;
     
@@ -300,7 +296,7 @@
         font-size: 30px;
         font-weight: 600;
     }
-    .heading-black{
+    .mid-heading{
         font-weight: 600;
         font-size: 26px;
     
@@ -326,7 +322,7 @@
         font-size: 32px;
         font-weight: 600;
     }
-    .heading-black{
+    .mid-heading{
         font-weight: 600;
         font-size: 28px;
     

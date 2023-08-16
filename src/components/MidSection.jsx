@@ -20,7 +20,7 @@ const MidSection = () => {
                 <img src={bars} alt="image-bar" className='image-bar'/>
             </div>
             <div className="sub-item">
-                <h2 className="heading-black">
+                <h2 className="mid-heading">
                    ELIMINATE HANDWRITTEN MEDICATION LISTS
                 </h2>
                 <h2 className="heading-light">
@@ -28,7 +28,7 @@ const MidSection = () => {
                 </h2>
             </div>
             <div className="sub-item">
-                <h2 className="heading-black">
+                <h2 className="mid-heading">
                   EMPOWER THE FAMILIES YOU SERVE
                 </h2>
                 <h2 className="heading-light">
@@ -36,7 +36,7 @@ const MidSection = () => {
                 </h2>
             </div>
             <div className="sub-item">
-                <h2 className="heading-black">
+                <h2 className="mid-heading">
                  ACCESS TO IMPORTANT DOCUMENTS 
                 </h2>
                 <h2 className="heading-light">
@@ -44,7 +44,7 @@ const MidSection = () => {
                 </h2>
             </div>
             <div className="sub-item">
-                <h2 className="heading-black">
+                <h2 className="mid-heading">
                    KEEP OTHER FAMILY MEMBERS IN THE LOOP
                 </h2>
                 <h2 className="heading-light">
