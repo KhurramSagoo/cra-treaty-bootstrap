@@ -7,7 +7,9 @@ import Carousel from './components/Carousel';
 import Icons from './components/Icons'
 import MidSection from './components/MidSection'
 import Contact from './components/Contact'
+import Contact2 from './components/Contact2'
 import Footer from './components/Footer'
+import Left from './components/Left'
 
 function App() {
   return (
@@ -17,6 +19,8 @@ function App() {
     <Icons />
     <MidSection />
     <Contact />
+    {/* <Contact2 /> */}
+    {/* <Left /> */}
     <Footer />
 
     </>
