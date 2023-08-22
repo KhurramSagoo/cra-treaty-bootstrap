@@ -12,12 +12,12 @@ import ContactForm from "./components/ContactForm";
 function App() {
   return (
     <>
-      {/* <TopNav /> */}
-      {/* <Carousel /> */}
-      {/* <Icons /> */}
-      {/* <MidSection /> */}
+      <TopNav />
+      <Carousel />
+      <Icons />
+      <MidSection />
       <ContactForm />
-      {/* <Footer /> */}
+      <Footer />
     </>
   );
 }
