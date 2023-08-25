@@ -19,8 +19,8 @@ const ContactForm = () => {
             <div className="row" style={{
                 padding: "86px 0 86px 0"
             }}>
-                <div className="col-lg-5 col-md-5 col-sm-12  d-flex flex-column  ">
-                    <div className=" d-flex align-items-baseline flex-column  ">
+                <div className="col-lg-5 col-md-5 col-sm-12  d-flex flex-column align-items-sm-center align-items-center   ">
+                    <div className=" d-flex align-items-baseline flex-column   ">
                         <h2 className=" text-info">
                             STAY IN TOUCH
                         </h2>
