@@ -15,12 +15,12 @@ import './contact-form.css'
 const ContactForm = () => {
     return (
 
-        <div className="container">
+        <div className="container p-5 ">
             <div className="row" style={{
                 padding: "86px 0 86px 0"
             }}>
                 <div className="col-lg-5 col-md-5 col-sm-12  d-flex flex-column  ">
-                    <div className=" d-flex align-items-baseline flex-column ">
+                    <div className=" d-flex align-items-baseline flex-column  ">
                         <h2 className=" text-info">
                             STAY IN TOUCH
                         </h2>
